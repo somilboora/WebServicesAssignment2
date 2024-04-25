@@ -88,6 +88,7 @@ def crawl(url, depth):
             crawl("https://quotes.toscrape.com" + href, depth-1)
 
 
+#Initialisations
 termination = 0
 ui = ""
 
